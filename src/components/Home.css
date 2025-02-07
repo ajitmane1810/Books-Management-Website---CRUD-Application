@@ -1,0 +1,50 @@
+.header{
+    height: 90vh;
+    align-content: center;
+    /* position: fixed; */
+    /* left: 18%; */
+    padding-bottom: 250px;
+    animation: fadeIn 1s ease-out forwards;
+    overflow-y: auto;
+}
+
+ .row{
+    font-size: 4rem;
+    text-align: center;
+    margin-left: 35px;
+    margin-top: 25px;
+    font-family: 'Bodoni Moda', serif;
+    color: aliceblue;
+    
+}
+
+
+
+/* Adjust header for medium screens */
+@media (max-width: 1200px) {
+    .header {
+        left: 10%;
+        height: 70vh;
+    }
+}
+
+/* Adjust header for small screens */
+@media (max-width: 768px) {
+    .header {
+        left: 5%;
+        height: 60vh;
+    }
+}
+
+/* Adjust header for very small screens */
+@media (max-width: 480px) {
+    .header {
+        left: 2%;
+        height: 50vh;
+    }
+}
+
+
+
+
+

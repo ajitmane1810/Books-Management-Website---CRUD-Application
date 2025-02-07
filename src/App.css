@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&family=Poppins:wght@300&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  padding-top: 50px;
+  background-color: black;
+  background-image: url(./assets/bg1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+   /* Prevent scrollbars if not needed */
+ 
+}
+
+/* Responsive adjustments for smaller devices */
+@media (max-width: 768px) {
+  body {
+    background-size: cover; /* Ensures the image still covers the area */
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    background-size: cover; /* Ensures the image still covers the area */
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0; /* Start as invisible */
+  }
+  to {
+    opacity: 1; /* End as fully visible */
+  }
+}
